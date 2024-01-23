@@ -39,14 +39,14 @@ function App() {
   
   if(!info) return "Fetching Photo of the Day..."
   return (
-    <>
+    <section>
      <Card 
      title = {info.title}
      text = {info.explanation}
      imgURL = {info.url}
      date = {info.date}
      />
-    </>
+    </section>
   )
 }
 
